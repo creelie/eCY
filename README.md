@@ -2,6 +2,8 @@
 
 Deep Bhattacharjee
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23252219.svg)](https://doi.org/10.5281/zenodo.23252219)
+
 *Written on the Wall II* (E. DeLaViña's list of the conjectures of the program Graffiti.pc)
 marks Conjectures 319, 352, 358, 359 and 427 as open in its version of 26 July 2026. This
 repository contains a paper proving that all five are false, and independent computer checks of
@@ -73,7 +75,9 @@ Needs pdflatex (amsart, tikz, hyperref), pdftoppm, zip and tar.
 
 ## Citation
 
-See `CITATION.cff`. The paper cites, as in its reference list,
+Archived on Zenodo: all versions [10.5281/zenodo.23252219](https://doi.org/10.5281/zenodo.23252219);
+version 1.0.0 [10.5281/zenodo.23252220](https://doi.org/10.5281/zenodo.23252220). See also
+`CITATION.cff`. The paper cites, as in its reference list,
 D. Bhattacharjee, P. Mandal and U. Bhattacharya, *Resolving Erdős–Ulam monochromatic
 union-closed family conjectures*, arXiv:2610.02833.
 
