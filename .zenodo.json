@@ -1,0 +1,41 @@
+{
+  "title": "Counterexamples to five conjectures of Graffiti.pc on domination",
+  "version": "1.0.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Bhattacharjee, Deep",
+      "orcid": "0000-0003-0466-750X",
+      "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
+    }
+  ],
+  "description": "<p>Written on the Wall II, the list of conjectures of the program Graffiti.pc, records Conjectures 319, 352, 358, 359 and 427 as open. We show that all five are false. The counterexamples are caterpillars for Conjectures 352, 358, 359 and 427, and graphs built from complete graphs for Conjecture 319; each comes in an infinite family, and for Conjectures 358, 359 and 427 the difference between the two sides is unbounded.</p><p>The archive contains the paper (PDF, LaTeX sources with PNG figures, arXiv tarball), exhaustive searches over all trees with at most 24 vertices and all connected graphs with at most 11 vertices (Conjecture 319) or 10 vertices (Conjecture 427), and independent checks of every finite claim in C, Python, Julia and Lean 4. The Lean refutations of Conjectures 352, 358 and 359 depend on no axioms, and those of Conjectures 319 and 427 only on propext.</p>",
+  "keywords": [
+    "total domination",
+    "independent domination",
+    "well totally dominated graph",
+    "Graffiti.pc",
+    "Written on the Wall II",
+    "counterexample",
+    "05C69",
+    "05C05",
+    "05C12"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/creelie/eCY",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "arXiv:2610.02833",
+      "relation": "references",
+      "resource_type": "publication-preprint",
+      "scheme": "arxiv"
+    }
+  ],
+  "notes": "Corresponding author: d.bhattacharjee@erl-forschung.de; also itsdeep@live.com."
+}

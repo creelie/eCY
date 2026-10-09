@@ -1,0 +1,100 @@
+== n=2
+graphs 1
+C318I tested 1 violations 0
+C318X tested 1 violations 0
+C319I tested 1 violations 0
+C319X tested 0 violations 0
+C320I tested 1 violations 0
+C320X tested 0 violations 0
+== n=3
+graphs 2
+C318I tested 2 violations 0
+C318X tested 2 violations 0
+C319I tested 1 violations 0
+C319X tested 1 violations 0
+C320I tested 1 violations 0
+C320X tested 0 violations 0
+== n=4
+graphs 6
+C318I tested 5 violations 0
+C318X tested 3 violations 0
+C319I tested 3 violations 0
+C319X tested 1 violations 0
+C320I tested 2 violations 0
+C320X tested 0 violations 0
+== n=5
+C319X DQo n=5 evI=3 evX=2 gamma=2 mC=6 Tmin=6 gt=3
+C319X DQw n=5 evI=3 evX=2 gamma=2 mC=5 Tmin=5 gt=2
+graphs 21
+C318I tested 9 violations 0
+C318X tested 4 violations 0
+C319I tested 1 violations 0
+C319X tested 12 violations 2
+C320I tested 4 violations 0
+C320X tested 0 violations 0
+== n=6
+C319X ECZ_ n=6 evI=3 evX=2 gamma=2 mC=9 Tmin=7 gt=3
+C319X ECYW n=6 evI=3 evX=2 gamma=2 mC=9 Tmin=7 gt=2
+C319X EEj_ n=6 evI=3 evX=2 gamma=2 mC=8 Tmin=7 gt=2
+C319X EEio n=6 evI=3 evX=2 gamma=2 mC=8 Tmin=7 gt=3
+C319X EEjW n=6 evI=3 evX=2 gamma=2 mC=7 Tmin=6 gt=2
+graphs 112
+C318I tested 13 violations 0
+C318X tested 5 violations 0
+C319I tested 4 violations 0
+C319X tested 30 violations 14
+C320I tested 11 violations 0
+C320X tested 0 violations 0
+== n=7
+C319X F?ov_ n=7 evI=4 evX=3 gamma=3 mC=13 Tmin=8 gt=3
+C319X FCOf? n=7 evI=4 evX=3 gamma=3 mC=15 Tmin=9 gt=4
+C319X FCOf_ n=7 evI=4 evX=3 gamma=3 mC=14 Tmin=8 gt=3
+C319X FCQf? n=7 evI=4 evX=3 gamma=3 mC=14 Tmin=9 gt=3
+C319X FCQeO n=7 evI=4 evX=3 gamma=3 mC=14 Tmin=9 gt=3
+graphs 853
+C318I tested 17 violations 0
+C318X tested 6 violations 0
+C319I tested 2 violations 0
+C319X tested 60 violations 23
+C320I tested 34 violations 0
+C320X tested 0 violations 0
+== n=8
+C319X G?`@f? n=8 evI=4 evX=3 gamma=3 mC=21 Tmin=12 gt=5
+C319X G?`@f_ n=8 evI=4 evX=3 gamma=3 mC=20 Tmin=10 gt=4
+C319X G?`@eS n=8 evI=4 evX=3 gamma=3 mC=20 Tmin=10 gt=3
+C319X G?`CV_ n=8 evI=4 evX=3 gamma=3 mC=20 Tmin=10 gt=3
+C319X G?`Df_ n=8 evI=4 evX=3 gamma=3 mC=19 Tmin=10 gt=3
+graphs 11117
+C318I tested 21 violations 0
+C318X tested 7 violations 0
+C319I tested 8 violations 0
+C319X tested 189 violations 90
+C320I tested 156 violations 0
+C320X tested 0 violations 0
+== n=9
+C319X H?ABAag n=9 evI=5 evX=4 gamma=4 mC=28 Tmin=18 gt=4
+C319X H?ABAbg n=9 evI=5 evX=4 gamma=4 mC=27 Tmin=13 gt=4
+C319X H?BDA`I n=9 evI=5 evX=4 gamma=4 mC=27 Tmin=14 gt=4
+C319X H?BDAbI n=9 evI=5 evX=4 gamma=4 mC=26 Tmin=13 gt=4
+C319X H?`@?bo n=9 evI=5 evX=4 gamma=4 mC=28 Tmin=12 gt=5
+graphs 261080
+C318I tested 25 violations 0
+C318X tested 8 violations 0
+C319I tested 1 violations 0
+C319X tested 234 violations 60
+C320I tested 1044 violations 0
+C320X tested 0 violations 0
+== n=10
+C319X I??ED?W`G n=10 evI=5 evX=4 gamma=4 mC=36 Tmin=17 gt=5
+C319X I??ED?WPG n=10 evI=5 evX=4 gamma=4 mC=36 Tmin=21 gt=4
+C319X I??ED?WpG n=10 evI=5 evX=4 gamma=4 mC=35 Tmin=15 gt=4
+C319X I?AA@?W{? n=10 evI=5 evX=4 gamma=4 mC=36 Tmin=15 gt=6
+C319X I?AA@?W}? n=10 evI=5 evX=4 gamma=4 mC=35 Tmin=13 gt=5
+C319I I?`D@`WH_ n=10 evI=4 evX=3 gamma=4 mC=33 Tmin=18 gt=4
+graphs 11716571
+C318I tested 29 violations 0
+C318X tested 9 violations 0
+C319I tested 24 violations 1
+C319X tested 1298 violations 649
+C320I tested 12346 violations 0
+C320X tested 0 violations 0

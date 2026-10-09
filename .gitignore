@@ -1,0 +1,15 @@
+build/
+dist/
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+__pycache__/
+.lake/
+wowii352/c/search352
+wowii358/c/search358
+wowii319/c/c319
+wowii427/c/c427
+paper/main.pdf
