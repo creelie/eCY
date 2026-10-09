@@ -288,7 +288,7 @@ $24$ & $39{,}299{,}897$ & $318$ & $255$\\
 
 \section{Verification}\label{app:verification}
 
-The proofs above use no computation. The computer checks the finite claims about the smallest members of each family and the searches of Section~\ref{sec:search}, independently in four languages; all files are in the repository listed under Data and code availability. The author used Claude (Anthropic), an AI system, for programming, computation and drafting; the author checked the mathematics and is responsible for the content.
+The proofs above use no computation. The computer checks the finite claims about the smallest members of each family and the searches of Section~\ref{sec:search}, independently in four languages; all files are in the repository listed under Data and code availability.
 \begin{enumerate}
 \item \textbf{C.} Exhaustive searches: \texttt{search352.c} and \texttt{search358.c} over trees in graph6 format (total domination number by dynamic programming, optionally compared with brute force over all vertex subsets), \texttt{c319.c} and \texttt{c427.c} over connected graphs (all parameters by exhaustion over vertex subsets, in integer arithmetic). The search for Conjecture~\ref{c319} on the $1{,}006{,}700{,}565$ connected graphs with $11$ vertices was split into three parts with \texttt{geng}'s \texttt{res/mod} option.
 \item \textbf{Python} (exact integer and rational arithmetic): for $T(a,r)$ with $a\in\{3,7,11\}$, $r\in\{4,8,12,16\}$, for $Q_k$ with odd $k\le11$, for $G_k$ with $k\le5$, for $H_m$ with $m\le5$ and for $F_m$ with $5\le m\le8$, recomputes every quantity in Theorems~\ref{thm:352}--\ref{thm:427} from the edge lists, and checks the stated values of $\gt$, $\gamma$ and $i$ by exhaustion for the smaller members.
@@ -303,6 +303,8 @@ The proofs above use no computation. The computer checks the finite claims about
 \subsection*{Competing interests} The author has no competing interests to declare that are relevant to the content of this article.
 
 \subsection*{Data and code availability} The programs, their outputs and the Lean files are available at \url{https://github.com/creelie/eCY} and archived on Zenodo, \doi{10.5281/zenodo.23252219}.
+
+\subsection*{Use of generative AI} The author used Claude (Anthropic) for programming, computation and drafting; the author checked the mathematics and takes full responsibility for the content.
 
 {\raggedright
 \begin{thebibliography}{99}
