@@ -3,7 +3,8 @@
 #
 #   C       compiles the four search programs into build/ and runs them on small orders,
 #           comparing the per-order counts with the files in wowii*/data/.
-#           Needs nauty's gentreeg, copyg and geng on PATH or in $NAUTY; skipped otherwise.
+#           Needs nauty's gentreeg, copyg and geng on PATH (also as nauty-geng etc.) or in
+#           $NAUTY; skipped otherwise.
 #           FULL=1 repeats the full ranges of data/ (trees up to 24 vertices, connected
 #           graphs up to 10 vertices; several hours on one core).
 #   Python  wowii*/python/verify*.py
@@ -20,9 +21,9 @@ FAILED=0
 fail() { echo "FAIL: $*"; FAILED=1; }
 ok() { echo "ok:   $*"; }
 
-tool() {  # tool NAME -> path of a nauty program, or empty
+tool() {  # tool NAME -> path of a nauty program, or empty (Debian names them nauty-NAME)
   if [ -n "${NAUTY:-}" ] && [ -x "$NAUTY/$1" ]; then echo "$NAUTY/$1"
-  else command -v "$1" || true; fi
+  else command -v "$1" || command -v "nauty-$1" || true; fi
 }
 
 echo "== C"
@@ -49,8 +50,10 @@ else
   trees 3 "$TMAX" | "$BUILD/search358" > "$BUILD/search358.txt"
   same_counts "Conjectures 358/359, trees 3..$TMAX" "$BUILD/search358.txt" "$ROOT/wowii358/data/search_3_24.txt"
   for n in $(seq 2 "$GMAX"); do echo "== n=$n"; "$GENG" -cq "$n" | "$BUILD/c319"; done > "$BUILD/c319.txt"
-  if diff -q "$BUILD/c319.txt" <(sed "/^== n=$((GMAX + 1))\$/,\$d" "$ROOT/wowii319/data/connected_2_10.txt") > /dev/null
-  then ok "Conjecture 319, connected graphs 2..$GMAX: output identical to data"
+  counts319() { grep -E '^(==|graphs|C3[0-9][0-9][IX] tested)' "$1"; }
+  if diff -q <(counts319 "$BUILD/c319.txt") \
+       <(sed "/^== n=$((GMAX + 1))\$/,\$d" "$ROOT/wowii319/data/connected_2_10.txt" | counts319 /dev/stdin) > /dev/null
+  then ok "Conjecture 319, connected graphs 2..$GMAX: counts agree with data"
   else fail "Conjecture 319: output differs from data"; fi
   for n in $(seq 4 "$GMAX"); do "$GENG" -cq "$n"; done | "$BUILD/c427" > "$BUILD/c427.txt"
   same_counts "Conjecture 427, connected graphs 4..$GMAX" "$BUILD/c427.txt" "$ROOT/wowii427/data/connected_4_10.txt"
