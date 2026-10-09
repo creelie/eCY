@@ -1,0 +1,48 @@
+# n=11, run in three parts: geng -cq 11 j/3 | ./c319 for j = 0, 1, 2
+== n=11 part 0/3
+C319X J?AAD@OcSR_ n=11 evI=6 evX=5 gamma=5 mC=41 Tmin=16 gt=5
+C319X J?AAD@OaSe? n=11 evI=6 evX=5 gamma=5 mC=42 Tmin=17 gt=5
+C319X J?AAD@OaSa_ n=11 evI=6 evX=5 gamma=5 mC=42 Tmin=19 gt=5
+C319X J?AAD@OaUE_ n=11 evI=6 evX=5 gamma=5 mC=41 Tmin=16 gt=5
+C319X J?AAD@OaSe_ n=11 evI=6 evX=5 gamma=5 mC=41 Tmin=15 gt=5
+graphs 365789355
+C318I tested 12 violations 0
+C318X tested 6 violations 0
+C319I tested 1 violations 0
+C319X tested 347 violations 30
+C320I tested 96629 violations 0
+C320X tested 0 violations 0
+== n=11 part 1/3
+C319X J??CB@OaEG? n=11 evI=6 evX=5 gamma=5 mC=45 Tmin=20 gt=6
+C319X J??CB@OaFG? n=11 evI=6 evX=5 gamma=5 mC=44 Tmin=18 gt=5
+C319X J??CB@OaEG_ n=11 evI=6 evX=5 gamma=5 mC=44 Tmin=18 gt=6
+C319X J??CB@OaDG_ n=11 evI=6 evX=5 gamma=5 mC=44 Tmin=22 gt=5
+C319X J??CB@OaFG_ n=11 evI=6 evX=5 gamma=5 mC=43 Tmin=16 gt=5
+graphs 306387888
+C318I tested 13 violations 0
+C318X tested 2 violations 0
+C319I tested 0 violations 0
+C319X tested 926 violations 259
+C320I tested 95390 violations 0
+C320X tested 0 violations 0
+== n=11 part 2/3
+C319X J??CA?oIFG? n=11 evI=6 evX=5 gamma=5 mC=45 Tmin=18 gt=6
+C319X J??CA?oIEg? n=11 evI=6 evX=5 gamma=5 mC=45 Tmin=22 gt=5
+C319X J??CA?oIFg? n=11 evI=6 evX=5 gamma=5 mC=44 Tmin=16 gt=5
+C319X J?AACH_SMP_ n=11 evI=6 evX=5 gamma=5 mC=41 Tmin=15 gt=5
+C319X J?AACH_sMP_ n=11 evI=6 evX=5 gamma=5 mC=40 Tmin=15 gt=5
+graphs 334523322
+C318I tested 8 violations 0
+C318X tested 2 violations 0
+C319I tested 0 violations 0
+C319X tested 276 violations 21
+C320I tested 82649 violations 0
+C320X tested 0 violations 0
+== n=11 total
+graphs 1006700565
+C318I tested 33 violations 0
+C318X tested 10 violations 0
+C319I tested 1 violations 0
+C319X tested 1549 violations 310
+C320I tested 274668 violations 0
+C320X tested 0 violations 0

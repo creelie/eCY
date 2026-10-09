@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Counterexamples to five conjectures of Graffiti.pc on domination"
+type: software
+authors:
+  - family-names: Bhattacharjee
+    given-names: Deep
+    orcid: "https://orcid.org/0000-0003-0466-750X"
+    affiliation: "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
+    email: d.bhattacharjee@erl-forschung.de
+version: 1.0.0
+date-released: 2026-10-09
+license: MIT
+repository-code: "https://github.com/creelie/eCY"
+keywords:
+  - total domination
+  - independent domination
+  - well totally dominated graph
+  - Graffiti.pc
+  - Written on the Wall II
+  - counterexample
+  - tree
+abstract: >-
+  Written on the Wall II, the list of conjectures of the program Graffiti.pc,
+  records Conjectures 319, 352, 358, 359 and 427 as open. We show that all
+  five are false. The counterexamples are caterpillars for Conjectures 352,
+  358, 359 and 427, and graphs built from complete graphs for Conjecture 319;
+  each comes in an infinite family, and for Conjectures 358, 359 and 427 the
+  difference between the two sides is unbounded.
+references:
+  - type: article
+    title: "Resolving Erdős–Ulam monochromatic union-closed family conjectures"
+    authors:
+      - family-names: Bhattacharjee
+        given-names: Deep
+      - family-names: Mandal
+        given-names: Priyabrata
+      - family-names: Bhattacharya
+        given-names: Ushashi
+    year: 2026
+    url: "https://arxiv.org/abs/2610.02833"
