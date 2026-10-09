@@ -2,6 +2,13 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 title: "Counterexamples to five conjectures of Graffiti.pc on domination"
 type: software
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23252219
+    description: Concept DOI (all versions)
+  - type: doi
+    value: 10.5281/zenodo.23252220
+    description: Version 1.0.0
 authors:
   - family-names: Bhattacharjee
     given-names: Deep
@@ -11,6 +18,7 @@ authors:
 version: 1.0.0
 date-released: 2026-10-09
 license: MIT
+doi: 10.5281/zenodo.23252219
 repository-code: "https://github.com/creelie/eCY"
 keywords:
   - total domination
