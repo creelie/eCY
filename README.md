@@ -76,6 +76,7 @@ Needs pdflatex (amsart, tikz, hyperref), pdftoppm, zip and tar.
 ## Citation
 
 Archived on Zenodo: all versions [10.5281/zenodo.23252219](https://doi.org/10.5281/zenodo.23252219);
+version 1.0.1 [10.5281/zenodo.23288722](https://doi.org/10.5281/zenodo.23288722),
 version 1.0.0 [10.5281/zenodo.23252220](https://doi.org/10.5281/zenodo.23252220). See also
 `CITATION.cff`. The paper cites, as in its reference list,
 D. Bhattacharjee, P. Mandal and U. Bhattacharya, *Resolving Erdős–Ulam monochromatic
