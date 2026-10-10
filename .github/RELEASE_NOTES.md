@@ -11,6 +11,8 @@ Written on the Wall II, the list of conjectures of the program Graffiti.pc, reco
 
 The proofs are by hand. Every finite claim is re-checked in C, Python, Julia and Lean 4; the Lean refutations of 352, 358 and 359 depend on no axioms, and those of 319 and 427 only on `propext`. Exhaustive searches cover all 63,242,254 trees with 3 to 24 vertices and all connected graphs with up to 11 vertices (319) or 10 vertices (427).
 
+Changes in v1.0.1: the statement on the use of generative AI is in the Statements and Declarations, where Elsevier asks for it, instead of Appendix A; the date of the version of Written on the Wall II is a footnote. The mathematics is unchanged.
+
 Files:
 - `graffiti-domination-counterexamples.pdf`: the paper
 - `graffiti-domination-counterexamples-tex.zip`: LaTeX source with the figures as PNG (and their TikZ sources)
